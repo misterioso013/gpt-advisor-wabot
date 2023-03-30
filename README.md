@@ -17,10 +17,14 @@ O bot funciona da seguinte forma:
 - [Conta no OpenAI](https://platform.openai.com/)
 - Conta no Whatsapp
 
+## Conta no OpenAI
+A API do GPT-3 é paga, porém a OpenAI oferece um saldo de U$18 para você testar as funcionalidades da API. Você pode usar esse saldo para testar o bot.
 ### Instalação
 Clone o repositório
 ```bash
 git clone https://github.com/misterioso013/gpt-advisor-wabot.git
+
+cd gpt-advisor-wabot
 ```
 Instale as dependências com:
 ```bash
