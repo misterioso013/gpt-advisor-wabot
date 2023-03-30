@@ -1,0 +1,45 @@
+{
+  "name": "gpt-advisor-wabot",
+  "version": "1.0.0",
+  "description": "Bot para WhatsApp que usa a API Oficial do ChatGPT no Projeto X da codeBuddy",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsup src",
+    "start": "node dist/index.js",
+    "lint": "eslint src --ext .ts",
+    "lint:fix": "eslint src --ext .ts --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/misterioso013/gpt-advisor-wabot.git"
+  },
+  "keywords": [
+    "ChatGPT",
+    "typescript",
+    "WhatsApp"
+  ],
+  "author": "Rosiel Victor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/misterioso013/gpt-advisor-wabot/issues"
+  },
+  "homepage": "https://github.com/misterioso013/gpt-advisor-wabot#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "@typescript-eslint/eslint-plugin": "^5.57.0",
+    "eslint": "^8.37.0",
+    "eslint-config-standard-with-typescript": "^34.0.1",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@wppconnect-team/wppconnect": "^1.23.1",
+    "chatgpt": "^5.1.3",
+    "dotenv": "^16.0.3"
+  }
+}
