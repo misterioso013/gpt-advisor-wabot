@@ -73,5 +73,7 @@ Para ver o QR Code do Whatsapp, use:
 pm2 logs gpt-advisor-wabot
 ```
 
+> Caso esteja usando o Ubuntu você poderá encontrar alguns problemas com o puppeteer. Para resolver isso, siga as instruções [deste link](https://gist.github.com/misterioso013/5e24019e6e5e6f71432d71c4c966b311)
+
 ## Contribuindo
 Contribuições são sempre bem-vindas! Se você tiver alguma ideia de como melhorar o bot, sinta-se livre para abrir uma issue ou um pull request.
